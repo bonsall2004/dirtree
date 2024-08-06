@@ -1,13 +1,7 @@
 cmake_minimum_required(VERSION 3.20)
-project(dirtree)
+project(dirtree VERSION 0.1.0 LANGUAGES CXX)
 
-if(WIN32)
-  set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/binaries/windows)
-elseif(UNIX AND NOT APPLE)
-  set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/binaries/linux)
-else()
-  set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/binaries/macos)
-endif()
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/binaries/)
 
 set(CMAKE_CXX_STANDARD 17)
 
