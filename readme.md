@@ -13,7 +13,7 @@ Dirtree offers a visually appealing alternative to conventional directory listin
 
 ## Installation
 
-You can download the latest release from the [Releases](#).
+You can download the latest release from the [Releases](https://github.com/bonsall2004/dirtree/releases).
 
 ### Building from Source with CMake
 
